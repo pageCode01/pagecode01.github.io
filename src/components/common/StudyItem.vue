@@ -1,6 +1,6 @@
 <template>
   <div class="py-8 lg:w-1/3">
-    <div class="h-full flex items-start">
+    <div class="h-full flex items-start md:mx-10">
       <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
         <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200"
           >{{inicio}}</span

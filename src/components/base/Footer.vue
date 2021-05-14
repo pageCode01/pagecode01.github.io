@@ -55,7 +55,7 @@
               </a>
 
               <a
-                href="https://api.whatsapp.com/send?phone=8299580083&text=Buenas!!!,%20estoy%20interesado."
+                href="https://api.whatsapp.com/send?phone=18299580083&text=Buenas!!!,%20estoy%20interesado."
                 class="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
                 aria-label="Whatsapp"
                 target="__blank"

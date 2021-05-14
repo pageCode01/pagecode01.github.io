@@ -1,5 +1,5 @@
 <template>
-  <section id="Study" class="text-gray-600 body-font">
+  <section id="Study" class="text-gray-600 body-font shadow-md py-6">
     <h1
       class="title-font text-center sm:text-3xl text-2xl mb-4 font-medium text-gray-900"
     >

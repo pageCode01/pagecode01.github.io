@@ -12,7 +12,7 @@
       <a href="#AboutMe" class="md:mr-5 mr-2 hover:text-green-500">¿Quién soy?</a>
       <a href="#Objetives" class="md:mr-5 mr-2 hover:text-green-500">Objetivo</a>
       <a href="#Study" class="md:mr-5 mr-2 hover:text-green-500">Formación</a>
-      <a class="md:mr-5 mr-2 hover:text-green-500">Habilidades</a>
+      <a href="#Skill" class="md:mr-5 mr-2 hover:text-green-500">Habilidades</a>
       <a class="md:mr-5 mr-2 hover:text-green-500">Expericiencia</a>
     </nav>
     <button class="inline-flex items-center bg-gray-100 border-0 text-green-500 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 md:mr-12">Enviar Email
