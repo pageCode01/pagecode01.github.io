@@ -1,5 +1,5 @@
 <template lang="">
-<header class="text-gray-600 body-font shadow-md">
+<header class="text-gray-600 body-font shadow-lg">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
@@ -9,9 +9,9 @@
     </a>
     <nav class="md:mx-auto md:text-base flex flex-wrap items-center text-sm justify-center">
       <a href="#Profile" class="md:mr-5 mr-2 hover:text-green-500">Perfil</a>
-      <a class="md:mr-5 mr-2 hover:text-green-500">¿Quién soy?</a>
-      <a class="md:mr-5 mr-2 hover:text-green-500">Objetivo</a>
-      <a class="md:mr-5 mr-2 hover:text-green-500">Formación</a>
+      <a href="#AboutMe" class="md:mr-5 mr-2 hover:text-green-500">¿Quién soy?</a>
+      <a href="#Objetives" class="md:mr-5 mr-2 hover:text-green-500">Objetivo</a>
+      <a href="#Study" class="md:mr-5 mr-2 hover:text-green-500">Formación</a>
       <a class="md:mr-5 mr-2 hover:text-green-500">Habilidades</a>
       <a class="md:mr-5 mr-2 hover:text-green-500">Expericiencia</a>
     </nav>

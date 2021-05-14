@@ -1,12 +1,12 @@
 <template>
-  <section id="Profile" class="text-gray-600 body-font">
-    <div class="container px-5 my-16 mx-auto flex flex-col">
+  <section id="Profile" class="text-gray-600 body-font shadow-md">
+    <div class="container pb-12 px-5 mt-16 my-2 mx-auto flex flex-col">
       <div class="lg:w-4/6 mx-auto">
         <div class="rounded-lg h-64 overflow-hidden">
           <img
             alt="content"
             class="object-cover object-center md:h-full md:w-full h-44"
-            src="../../assets/home/github.png"
+            src="https://drive.google.com/uc?id=1q0NclCr1f0Pidhqd7zNU2Q66pnLfOTAI"
           />
         </div>
         <div class="flex flex-col sm:flex-row md:mt-10 xl:ml-48 lg:ml-24 md:ml-32 sm:ml-20">
@@ -17,7 +17,7 @@
               <img
                 alt="content"
                 class="object-cover object-center h-32 w-full rounded-full"
-                src="../../assets/home/andy.jpg"
+                src="https://drive.google.com/uc?id=13dx0r2-sXhilWySnJ-mO3sLoA5dmupOm"
               />
             </div>
             <div class="flex flex-col items-center text-center justify-center">
@@ -44,7 +44,7 @@
 </template>
 <script>
 import data from "../../store/profile";
-import Step from "./Step";
+import Step from "../common/Step";
 
 export default {
   name: "Profile",
