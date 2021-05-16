@@ -6,7 +6,7 @@
       <img
         class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
         alt="hero"
-        src="https://drive.google.com/uc?id=1cu_vUiYwT8T0L38isoMcokAA3IFPnFUG"
+        src="https://i.ibb.co/bNZvPsy/objetives.jpg"
       />
       <div class="text-center lg:w-2/3 w-full">
         <h1

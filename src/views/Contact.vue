@@ -1,10 +1,96 @@
 <template>
-    <div>
-        <h1 class="text-2xl">Hola a todos soy contacto</h1>
+  <section class="text-gray-600 body-font relative">
+    <div class="container px-5 py-16 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1
+          class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+        >
+          Contactar Conmigo
+        </h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+          Comunícate conmigo mandando un correo!!
+        </p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+      <!--Form-->
+        <form class="flex flex-wrap -m-2" @submit.prevent="send()">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-600"
+                >Titulo</label
+              >
+              <input
+                required="true"
+                v-model="title"
+                type="text"
+                id="name"
+                name="name"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-600"
+                >Email</label
+              >
+              <input
+                required="true"
+                v-model="email"
+                type="email"
+                id="email"
+                name="email"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-gray-600"
+                >Mensaje</label
+              >
+              <textarea
+                v-model="message"
+                required="true"
+                id="message"
+                name="message"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              ></textarea>
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <button
+              type="submit"
+              class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
+              Enviar
+            </button>
+          </div>
+        </form>
+        <hr class="border-b border-gray-200 mt-8" />
+      </div>
     </div>
+  </section>
 </template>
 <script>
+import { reactive, toRefs } from "vue";
 export default {
-    name:"Contact"
-}
+  name: "Contact",
+  setup() {
+    const form = reactive({
+      title: "",
+      email: "",
+      message: "",
+    });
+
+    function send() {
+      console.log(form);
+    }
+
+    return {
+      ...toRefs(form),
+      send,
+    };
+  },
+};
 </script>

@@ -121,7 +121,7 @@
 
             <div>
               <h3 class="text-green-500 uppercase dark:text-white">Contacto</h3>
-              <button
+              <router-link :to="{name: 'Contact'}"
                 class="inline-flex items-center bg-gray-300 border-0 text-gray-800 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-sm mt-4 md:mt-4 md:mr-12"
               >
                 Enviar Email
@@ -136,7 +136,7 @@
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </button>
+              </router-link>
             </div>
           </div>
         </div>

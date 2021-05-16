@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import { ref } from "vue";
 
 const routes = [
   {
@@ -18,7 +19,6 @@ const router = createRouter({
   routes,
   //Scroll to an id
   scrollBehavior(to, from, savedPosition) {
-    console.log(to, from, savedPosition)
     if (to.hash) {
       //Delaying the scrool
       return new Promise((resolve, reject) => {
@@ -27,7 +27,7 @@ const router = createRouter({
             el: to.hash,
             behavior: "smooth",
           });
-        }, 1000);
+        }, 650);
       });
     }
   },

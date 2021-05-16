@@ -6,7 +6,7 @@
           <img
             alt="content"
             class="object-cover object-center md:h-full md:w-full h-44"
-            src="https://drive.google.com/uc?id=1q0NclCr1f0Pidhqd7zNU2Q66pnLfOTAI"
+            src="https://i.ibb.co/qW1nBPc/github.png"
           />
         </div>
         <div class="flex flex-col sm:flex-row md:mt-10 xl:ml-48 lg:ml-24 md:ml-32 sm:ml-20">
@@ -17,7 +17,7 @@
               <img
                 alt="content"
                 class="object-cover object-center h-32 w-full rounded-full"
-                src="https://drive.google.com/uc?id=13dx0r2-sXhilWySnJ-mO3sLoA5dmupOm"
+                src="https://i.ibb.co/WpMCQkC/andy.jpg"
               />
             </div>
             <div class="flex flex-col items-center text-center justify-center">

@@ -7,7 +7,7 @@ const data = reactive([
     entidad: "UASD",
     nombre: "Universidad Autónoma de Santo Domingo",
     oficio: "Estudiante de Licenciatura en informática",
-    image: "https://drive.google.com/uc?id=1H72_OHD_GCupCuE1Oxn507gxbJLPhNxj",
+    image: "https://i.ibb.co/Sm8vJkJ/uasd.jpg",
   },
   {
     inicio: "2016",
@@ -15,7 +15,7 @@ const data = reactive([
     entidad: "UASD",
     nombre: "Liceo Experimental Altagracia Amelia Ricart Calventi",
     oficio: "Bachiller Mención General",
-    image: "https://drive.google.com/uc?id=1DFz4qnyUZ2RJPjX9vXvW5kj9ihOmIJPB",
+    image: "https://i.ibb.co/7SBqkk5/experimental.jpg",
   },
   {
     inicio: "2016",
@@ -23,7 +23,7 @@ const data = reactive([
     entidad: "Fundación Carlos Slim",
     nombre: "Capacítate para el empleo fundación Carlos Slim",
     oficio: "Técnico en informática",
-    image: "https://drive.google.com/uc?id=1PZgzwJJBqdueDtEWuEt5VI1K4xRZZ4aR",
+    image: "https://i.ibb.co/zX02kTW/capacitate.jpg",
   },
   {
     inicio: "2017",
@@ -31,7 +31,7 @@ const data = reactive([
     entidad: "MESCYT",
     nombre: "Ministerio de Educación Superior, Ciencia y Tecnología",
     oficio: "Programa Ingles por Inmersión para la Competitividad",
-    image: "https://drive.google.com/uc?id=1LdASJJRSRNjyf586Yi1o0_K3sKE5krd9",
+    image: "https://i.ibb.co/wgTqnfh/MESCYT.png",
   },
   {
     inicio: "2019",
@@ -39,7 +39,7 @@ const data = reactive([
     entidad: "ITLA",
     nombre: "Instituto Tecnológico de las Américas (ITLA)",
     oficio: "Fundamentos de Programación con Python Avanzado",
-    image: "https://drive.google.com/uc?id=1RlT3gSOLYzUO7-Me4gokBM9VxwLxGnFn",
+    image: "https://i.ibb.co/XtbPbTf/itla.png",
   },
   {
     inicio: "2020",
@@ -47,7 +47,7 @@ const data = reactive([
     entidad: "INFOTEP",
     nombre: "Instituto Nacional de Formación Técnico Profesional",
     oficio: "Desarrollador de Aplicaciones en la Nube",
-    image: "https://drive.google.com/uc?id=1nzI2WDy69dGYV0TR-4YVPnyIyeK1Tk7V",
+    image: "https://i.ibb.co/6HP7Jy7/infotep.png",
   },
 ]);
 

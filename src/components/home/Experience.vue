@@ -79,7 +79,7 @@
         </div>
         <img
           class="lg:w-2/8 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-10"
-          src="https://drive.google.com/uc?id=1E-C_99Asy2bgSvn49ZxHJVThmEl7_pCe"
+          src="https://i.ibb.co/ZhB1VCp/experiencia.jpg"
           alt="step"
         />
       </div>

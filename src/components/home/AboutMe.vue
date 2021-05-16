@@ -24,7 +24,7 @@
             <div class="max-w-lg">
               <img
                 class="object-cover object-center w-full h-64 rounded-md shadow"
-                src="https://drive.google.com/uc?id=105L8EwZmW3e6sDFrDX4ArFGDqAUduUPf"
+                src="https://i.ibb.co/GdWnkLh/aboutme.jpg"
                 alt="Thinking"
               />
             </div>
