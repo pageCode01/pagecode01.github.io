@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { ref } from "vue";
 
 const routes = [
   {
@@ -12,16 +11,22 @@ const routes = [
     name: "Contact",
     component: () => import("../views/Contact.vue"),
   },
+  {
+    // Your server will no longer report 404 errors as all not-found paths now serve up your index.html file.
+    path: "/:pathMatch(.*)",
+    name: "Error",
+    component: () => import("../views/NotFoundComponent.vue"),
+  },
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
   //Scroll to an id
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to) {
     if (to.hash) {
       //Delaying the scrool
-      return new Promise((resolve, reject) => {
+      return new Promise((resolve) => {
         setTimeout(() => {
           resolve({
             el: to.hash,
