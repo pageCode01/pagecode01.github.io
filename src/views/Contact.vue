@@ -119,7 +119,8 @@ export default {
     const status = ref(false)
 
     function send() {
-      fetch("https://backfastapi.herokuapp.com/email", {
+      //https://backfastapi.herokuapp.com/email
+      fetch("https://www.andycodeapi.ga/email/", {
         method: "POST",
         body: JSON.stringify(form),
         headers: {
