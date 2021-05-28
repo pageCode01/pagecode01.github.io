@@ -116,30 +116,38 @@ export default {
       message: "",
     });
 
-    const status = ref(false)
+    const status = ref(false);
 
-    function send() {
+    async function send() {
       //https://backfastapi.herokuapp.com/email
-      fetch("https://www.andycodeapi.ga/email/", {
+      //https://send-email-black.vercel.app/email
+      //https://www.andycodeapi.ga/email
+      fetch("https://www.andycodeapi.ga/email", {
         method: "POST",
-        body: JSON.stringify(form),
         headers: {
           "Content-Type": "application/json",
         },
+        body: JSON.stringify(form),
       })
-        .then((response) => response.json())
-        .catch((error) => console.error("Error:", error))
-        .then((response) => status.value = response.email.user);
-        clean()
+        .then((res) => res.json())
+        .then((data) => {
+          // enter you logic when the fetch is successful
+          status.value = data.email.user
+        })
+        .catch((error) => {
+          // enter your logic for when there is an error (ex. error toast)
+          console.log(error);
+        });
+      clean();
     }
 
-    function contactAgain(){
-      status.value = false
+    function contactAgain() {
+      status.value = false;
     }
 
-    function clean(){
-      for(let item in form){
-        form[item] = ''
+    function clean() {
+      for (let item in form) {
+        form[item] = "";
       }
     }
 
@@ -147,7 +155,7 @@ export default {
       ...toRefs(form),
       send,
       status,
-      contactAgain
+      contactAgain,
     };
   },
 };
